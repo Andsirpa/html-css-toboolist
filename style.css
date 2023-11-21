@@ -22,3 +22,42 @@ body {
     display: inline;
     vertical-align: middle;
 }
+
+.container {
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding-left: 50px;
+}
+
+.card-header {
+    height: 50px;
+    border-bottom: 2px solid lightgrey;
+
+}
+
+button {
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+section {
+    margin: 30px;
+}
+
+.check {
+    display: inline-block;
+    border-radius: 50%;
+    color: greenyellow;
+    border: 1px solid greenyellow;
+}
+
+.cross {
+    display: inline-block;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;
+}
