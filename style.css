@@ -25,15 +25,14 @@ body {
 
 .container {
     width: 80%;
-    height: 700px;
     margin: 50px auto;
     background-color: white;
-    padding-left: 50px;
 }
 
 .card-header {
     height: 50px;
     border-bottom: 2px solid lightgrey;
+    padding-left: 30px;
 
 }
 
@@ -49,6 +48,9 @@ button {
 
 button:hover {
     background: lightskyblue;
+    color: white;
+    border: 1px solid lightblue;
+
 }
 
 section {
@@ -88,7 +90,7 @@ li {
 .badge {
     display: inline-block;
     border-radius: 20px;
-    padding: 5px 5px;
+    padding: 4px 8px;
     color: white;
 }
 
